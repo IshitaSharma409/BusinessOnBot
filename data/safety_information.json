@@ -1,0 +1,47 @@
+{
+  "products_safety": [
+    {
+      "sku": "SERUM-RET-30ML",
+      "product_name": "Youth Renewal Retinol Night Serum",
+      "category": "Skincare",
+      "active_ingredients": ["0.3% Encapsulated Retinol", "Hyaluronic Acid", "Niacinamide"],
+      "approved_indications": "Helps improve skin texture, fine lines, and promotes overnight cellular turnover.",
+      "safety_documentation": {
+        "dermatologically_tested": true,
+        "patch_test_recommended": true,
+        "pregnancy_precaution": "Retinoids are generally not recommended during pregnancy or breastfeeding as a precautionary medical measure."
+      },
+      "unsupported_claims_strictly_prohibited": [
+        "100% safe during pregnancy",
+        "completely safe during pregnancy",
+        "safe for pregnant women",
+        "zero risk",
+        "guaranteed no side effects",
+        "cures hormonal acne"
+      ],
+      "mandatory_medical_guidance": "We do not recommend using Retinol products during pregnancy or while nursing. Please consult with your healthcare provider or dermatologist for personalized medical advice."
+    },
+    {
+      "sku": "CREAM-HYD-50G",
+      "product_name": "Ultra Gentle Ceramide Barrier Cream",
+      "category": "Skincare",
+      "active_ingredients": ["Ceramide NP", "Colloidal Oat", "Glycerin"],
+      "approved_indications": "Provides 24-hour hydration and supports skin moisture barrier.",
+      "safety_documentation": {
+        "dermatologically_tested": true,
+        "patch_test_recommended": true,
+        "pregnancy_precaution": "Formulated without retinoids, salicylic acid, or essential oils. However, individual sensitivities vary."
+      },
+      "unsupported_claims_strictly_prohibited": [
+        "cures eczema",
+        "guaranteed to heal dermatitis",
+        "100% hypoallergenic with no chance of allergy"
+      ],
+      "mandatory_medical_guidance": "While formulated with gentle ingredients, we always advise performing a patch test and consulting your dermatologist for chronic skin conditions."
+    }
+  ],
+  "brand_safety_policy": {
+    "zero_tolerance_medical_guarantees": true,
+    "rule_statement": "Under no circumstances should the AI provide a definitive health, medical, or pregnancy safety guarantee. Factual ingredient lists may be shared, but medical evaluation must be referred to certified healthcare professionals."
+  }
+}

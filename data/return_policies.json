@@ -1,0 +1,55 @@
+{
+  "return_policy": {
+    "standard_window_days": 15,
+    "eligibility_criteria": [
+      "Item must be unused, unwashed, with all original tags attached",
+      "Original packaging and invoice must be included"
+    ],
+    "non_returnable_categories": [
+      "Innerwear and Intimates",
+      "Opened or used cosmetics and personal care products",
+      "Clearance sale items marked as FINAL SALE"
+    ],
+    "approval_requirements": {
+      "within_window": "Automated standard return approval via self-service portal",
+      "past_window": "Manual exception review by Brand Operations Manager required; agents/AI cannot guarantee exception approval"
+    },
+    "conflicting_policy_rule": "In case of conflict between standard policy and an order-specific clearance flag, order-specific restriction takes precedence."
+  },
+  "delivered_orders": [
+    {
+      "order_id": "ORD-2001",
+      "customer_id": "CUST-601",
+      "product_name": "Classic Biker Leather Jacket",
+      "sku": "JKT-LTHR-BLK-M",
+      "delivery_date": "2026-10-27T14:00:00Z",
+      "days_since_delivery": 22,
+      "is_clearance_sale": false,
+      "return_requested": false,
+      "exception_authorized": false
+    },
+    {
+      "order_id": "ORD-2002",
+      "customer_id": "CUST-602",
+      "product_name": "Cotton Embroidered Kurta",
+      "sku": "KURTA-BLU-M",
+      "delivery_date": "2026-11-12T10:00:00Z",
+      "days_since_delivery": 6,
+      "is_clearance_sale": false,
+      "return_requested": false,
+      "exception_authorized": false
+    },
+    {
+      "order_id": "ORD-2003",
+      "customer_id": "CUST-603",
+      "product_name": "Silk Festive Kurta - Warehouse Clearance",
+      "sku": "KURTA-RED-L",
+      "delivery_date": "2026-11-14T11:00:00Z",
+      "days_since_delivery": 4,
+      "is_clearance_sale": true,
+      "conflict_note": "Clearance Final Sale item: non-returnable despite being within 15-day general window.",
+      "return_requested": false,
+      "exception_authorized": false
+    }
+  ]
+}

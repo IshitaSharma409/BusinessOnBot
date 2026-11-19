@@ -1,0 +1,47 @@
+{
+  "discount_policies": {
+    "general_policy": {
+      "max_agent_discretionary_discount_pct": 0,
+      "discretionary_discounts_allowed": false,
+      "policy_statement": "Support agents and AI assistants are strictly prohibited from generating, inventing, or offering custom discount codes without marketing head authorization."
+    },
+    "authorized_coupons": [
+      {
+        "code": "WELCOME10",
+        "discount_type": "percentage",
+        "discount_value": 10,
+        "min_order_value": 499.00,
+        "max_discount_cap": 200.00,
+        "applicable_categories": ["All"],
+        "is_active": true,
+        "valid_from": "2026-01-01T00:00:00Z",
+        "valid_until": "2026-12-31T23:59:59Z",
+        "eligibility_rules": "Valid only on first purchase for verified phone numbers."
+      },
+      {
+        "code": "FESTIVE15",
+        "discount_type": "percentage",
+        "discount_value": 15,
+        "min_order_value": 1499.00,
+        "max_discount_cap": 500.00,
+        "applicable_categories": ["Apparel", "Outerwear"],
+        "is_active": true,
+        "valid_from": "2026-10-01T00:00:00Z",
+        "valid_until": "2026-11-30T23:59:59Z",
+        "eligibility_rules": "Applies to apparel catalogue orders above ₹1499."
+      },
+      {
+        "code": "DIWALI30",
+        "discount_type": "percentage",
+        "discount_value": 30,
+        "min_order_value": 2499.00,
+        "max_discount_cap": 1000.00,
+        "applicable_categories": ["All"],
+        "is_active": false,
+        "valid_from": "2026-10-15T00:00:00Z",
+        "valid_until": "2026-11-05T23:59:59Z",
+        "eligibility_rules": "Expired promotional campaign."
+      }
+    ]
+  }
+}

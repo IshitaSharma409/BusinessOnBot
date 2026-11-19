@@ -1,0 +1,64 @@
+{
+  "orders": [
+    {
+      "order_id": "ORD-1001",
+      "customer_id": "CUST-501",
+      "customer_name": "Priya Sharma",
+      "product_name": "Cotton Embroidered Kurta",
+      "sku": "KURTA-BLU-M",
+      "order_date": "2026-11-01T10:00:00Z",
+      "return_initiated": true,
+      "return_received_date": "2026-11-12T14:30:00Z",
+      "refund_status": "pending",
+      "refund_initiated_date": null,
+      "expected_completion_date": null,
+      "authorized_amount": 1499.00,
+      "notes": "Return package received at warehouse. Quality check in progress."
+    },
+    {
+      "order_id": "ORD-1002",
+      "customer_id": "CUST-502",
+      "customer_name": "Rahul Verma",
+      "product_name": "Silk Festive Kurta",
+      "sku": "KURTA-RED-L",
+      "order_date": "2026-11-02T11:00:00Z",
+      "return_initiated": true,
+      "return_received_date": "2026-11-10T09:15:00Z",
+      "refund_status": "processed",
+      "refund_initiated_date": "2026-11-13T16:00:00Z",
+      "expected_completion_date": null,
+      "authorized_amount": 2299.00,
+      "notes": "Refund processed with banking partner. Bank ARN pending."
+    },
+    {
+      "order_id": "ORD-1003",
+      "customer_id": "CUST-503",
+      "customer_name": "Ananya Sen",
+      "product_name": "Anarkali Kurta Set",
+      "sku": "KURTA-GRN-S",
+      "order_date": "2026-11-05T15:20:00Z",
+      "return_initiated": true,
+      "return_received_date": "2026-11-11T12:00:00Z",
+      "refund_status": "processed",
+      "refund_initiated_date": "2026-11-14T10:00:00Z",
+      "expected_completion_date": "2026-11-20T23:59:59Z",
+      "authorized_amount": 3499.00,
+      "notes": "Payout batch #98231 scheduled with Razorpay."
+    },
+    {
+      "order_id": "ORD-1004",
+      "customer_id": "CUST-504",
+      "customer_name": "Vikram Malhotra",
+      "product_name": "Linen Casual Shirt",
+      "sku": "SHIRT-WHT-XL",
+      "order_date": "2026-11-08T18:45:00Z",
+      "return_initiated": true,
+      "return_received_date": "2026-11-15T11:30:00Z",
+      "refund_status": "conflicting",
+      "refund_initiated_date": "2026-11-16T08:00:00Z",
+      "expected_completion_date": null,
+      "authorized_amount": 1199.00,
+      "notes": "CONTRADICTION: Flagged as refunded in warehouse ERP but rejected in payment gateway due to invalid IFSC."
+    }
+  ]
+}

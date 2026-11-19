@@ -1,0 +1,80 @@
+{
+  "products": [
+    {
+      "sku": "KURTA-BLU-M",
+      "product_name": "Cotton Embroidered Kurta",
+      "category": "Apparel",
+      "color": "Blue",
+      "size": "M",
+      "price": 1499.00,
+      "stock_quantity": 18,
+      "reserved_quantity": 2,
+      "available_quantity": 16,
+      "in_stock": true,
+      "last_synced_at": "2026-11-18T20:00:00Z",
+      "is_stale_data": false,
+      "warehouse_location": "BOM-WH-02"
+    },
+    {
+      "sku": "KURTA-BLU-L",
+      "product_name": "Cotton Embroidered Kurta",
+      "category": "Apparel",
+      "color": "Blue",
+      "size": "L",
+      "price": 1499.00,
+      "stock_quantity": 0,
+      "reserved_quantity": 0,
+      "available_quantity": 0,
+      "in_stock": false,
+      "last_synced_at": "2026-11-18T20:00:00Z",
+      "is_stale_data": false,
+      "warehouse_location": "BOM-WH-02"
+    },
+    {
+      "sku": "SERUM-RET-30ML",
+      "product_name": "Youth Renewal Retinol Night Serum",
+      "category": "Skincare",
+      "color": "Clear",
+      "size": "30ml",
+      "price": 899.00,
+      "stock_quantity": 45,
+      "reserved_quantity": 5,
+      "available_quantity": 40,
+      "in_stock": true,
+      "last_synced_at": "2026-11-18T21:15:00Z",
+      "is_stale_data": false,
+      "warehouse_location": "DEL-WH-01"
+    },
+    {
+      "sku": "JKT-LTHR-BLK-M",
+      "product_name": "Classic Biker Leather Jacket",
+      "category": "Outerwear",
+      "color": "Black",
+      "size": "M",
+      "price": 4999.00,
+      "stock_quantity": 0,
+      "reserved_quantity": 0,
+      "available_quantity": 0,
+      "in_stock": false,
+      "last_synced_at": "2026-11-18T19:30:00Z",
+      "is_stale_data": false,
+      "warehouse_location": "BLR-WH-03"
+    },
+    {
+      "sku": "DRSS-SLK-EMR-S",
+      "product_name": "Emerald Evening Silk Gown",
+      "category": "Dresses",
+      "color": "Emerald Green",
+      "size": "S",
+      "price": 5999.00,
+      "stock_quantity": 7,
+      "reserved_quantity": 1,
+      "available_quantity": 6,
+      "in_stock": true,
+      "last_synced_at": "2026-11-10T08:00:00Z",
+      "is_stale_data": true,
+      "stale_reason": "Warehouse sync service disconnected since 2026-11-10 (TTL expired > 8 days). Inventory reliability unconfirmed.",
+      "warehouse_location": "HYD-WH-01"
+    }
+  ]
+}
